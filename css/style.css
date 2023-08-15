@@ -320,6 +320,17 @@ address {
   letter-spacing: 0.4px;
 }
 
+.promo__subtitle {
+  margin-bottom: 8px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+
+}
+
 .feature__tumb {
   justify-content: center;
   display: flex;
@@ -424,6 +435,9 @@ address {
 }
 
 .filter__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
   justify-content: center;
   margin-bottom: 72px;
 }
@@ -463,6 +477,7 @@ address {
 /* P R O M O */
 
 .promo__link {
+
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -508,6 +523,9 @@ address {
 }
 
 .promo__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
   row-gap: 48px;
   flex-wrap: wrap;
 }
