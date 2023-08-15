@@ -4,6 +4,7 @@
   }
 }
 
+
 @media screen and (max-width: 428px) {
 
   .menu__list,
@@ -202,7 +203,7 @@
 }
 
 @media screen and (min-width: 429px) and (max-width: 768px) {
-
+  
   .feature__tumb,
   .galary {
     display: none;
@@ -214,6 +215,14 @@
   .customers,
   .footer {
     padding: 96px 0;
+  }
+
+  .header__top {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contact__list{
+    margin-left: 40px;
   }
 
   .subtitle {
@@ -319,7 +328,6 @@
   /* p o r t  f o l i o 796 PX */
 
   .contact__list {
-    margin-left: 121px;
     flex-direction: column;
     padding: 16px 0;
     display: flex;
@@ -340,7 +348,7 @@
   .promo__item {
     flex-basis: calc((100% - 24px) / 2);
   }
-
+}
 
   @media screen and (min-width: 768px) and (max-width: 1158px) {
     .social__list {
@@ -380,5 +388,10 @@
 
     .footer__social-col {
       margin-bottom: 72px;
+    }
+  }
+  @media  (min-width: 428px){
+    .menu-container{
+      display: none;
     }
   }
