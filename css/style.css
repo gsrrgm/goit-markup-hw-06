@@ -589,9 +589,6 @@ address {
   margin-right: 120px;
 }
 
-.footer__social-col {
-}
-
 .social__footer-list {
   list-style: none;
   display: flex;
@@ -663,7 +660,7 @@ address {
   display: flex;
   align-items: center;
   gap: 24px;
-}
+ }
 
 .footer__form-input {
   padding: 8px 16px;
