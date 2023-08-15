@@ -167,12 +167,13 @@
     color: var(--navyblue, #2e2f42);
     text-align: center;
     font-family: Roboto;
-    font-size: 2.25rem;
+    /* font-size: 36px; */
     font-style: normal;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    font-size: calc(28px + (52 - 28) * (100vw - 428px) / (1440 - 428));
   }
 
   .preview__subtitle {
