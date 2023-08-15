@@ -11,6 +11,7 @@
   /* Iris __ CTAs focused, Active, states, Links */
   --white-background: #ffffff;
   /* white __ Header, team card - background */
+  --white: #fff;
   --text: #434455;
   /* slate __ body text */
   --pressed-state: #404bbf;
@@ -243,6 +244,102 @@ address {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.menu-toggle {
+  min-height: 40px;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+}
+
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 24px;
+  background-color: var(--white);
+  z-index: 999;
+
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+}
+
+.menu-container.is-open {
+  transform: translateX(0);
+}
+
+.mob-menu__list {
+  margin-bottom: 264px;
+}
+
+.mob-menu__item {
+  margin-bottom: 40px;
+}
+
+.mob-menu__item:last-child {
+  margin-bottom: 0;
+}
+.mob-contact {
+}
+
+.mob-contact__list {
+  margin-bottom: 48px;
+  
+}
+
+.mob-contact__item {
+}
+
+.mob-contact__mail-link {
+  color: var(--slate, #434455);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  
+}
+
+.mob-contact__phone-link {
+  display: block;
+  color: var(--iris, #4d5ae5);
+  font-family: Roboto;
+  font-size: calc(2px + 8vw);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+.mob-menu__link {
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.mob-social__list {
+  display: flex;
+  justify-content: flex-start;
+  gap: 56px;
+}
+
+
 /*  H E R O I M A G E  */
 
 .hero-image {
@@ -329,7 +426,6 @@ address {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
-
 }
 
 .feature__tumb {
@@ -393,10 +489,9 @@ address {
   padding-bottom: 120px;
 }
 .galary__list {
-    display: flex;
-    gap: 24px;
+  display: flex;
+  gap: 24px;
 }
-
 
 /* P R E V I E W */
 
@@ -414,9 +509,8 @@ address {
   text-align: center;
 }
 .preview__list {
-    display: flex;
-    gap: 24px;
-
+  display: flex;
+  gap: 24px;
 }
 
 .preview__item {
@@ -478,7 +572,6 @@ address {
 /* P R O M O */
 
 .promo__link {
-
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -555,8 +648,8 @@ address {
 }
 
 .customers__list {
-    display: flex;
-    gap: 24px;
+  display: flex;
+  gap: 24px;
 }
 
 .customers__item {
@@ -679,7 +772,7 @@ address {
   display: flex;
   align-items: center;
   gap: 24px;
- }
+}
 
 .footer__form-input {
   padding: 8px 16px;
