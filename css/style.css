@@ -155,7 +155,7 @@ button {
 
 .header__top {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   height: 72px;
 }
@@ -177,7 +177,7 @@ button {
 .menu__link {
   position: relative;
   display: inline-block;
-  color: var(--pressed-state);
+  color: var(--navyblue);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -199,7 +199,7 @@ button {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu__link::after {
+.menu__link--blu-line::after {
   content: "";
   position: absolute;
   left: 0;
@@ -221,6 +221,7 @@ address {
   display: flex;
   align-items: center;
   gap: 40px;
+  margin-left: 332px;
 }
 
 .contact__item {

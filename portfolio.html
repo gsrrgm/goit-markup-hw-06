@@ -25,9 +25,9 @@
                 <a class="logo" href="./index.html">
                     Web<span class="logo_dark">Studio</span>
                 </a>
-                <ul class="menu__list list">
+                <ul class="menu__list">
                     <li class="menu__item">
-                        <a class="menu__link" href="./index.html">Studio</a>
+                        <a class="menu__link menu__link--blu-line" href="./index.html">Studio</a>
                     </li>
                     <li class="menu__item">
                         <a class="menu__link" href="./portfolio.html">Portfolio</a>
@@ -38,11 +38,12 @@
                 </ul>
             </nav>
             <address class="contact" id="contact">
-                <ul class="contact__list list">
-                    <li class="contact__item"><a class="contact__link"
-                            href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <ul class="contact__list">
+                    <li class="contact__item">
+                        <a class="contact__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
-                    <li class="contact__item"><a class="contact__link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    <li class="contact__item">
+                        <a class="contact__link" href="tel:+110001111111">+11 (000) 111-11-11</a>
                     </li>
                 </ul>
             </address>
@@ -56,7 +57,7 @@
         <section class="main">
             <div class="container">
                 <h1 class="visually-hidden" hidden>Main</h1>
-                <ul class="filter__list list">
+                <ul class="filter__list">
                     <li class="filter__item"><button class="main__batton" type="button">All</button></li>
                     <li class="filter__item"><button class="main__batton" type="button">Web Site</button></li>
                     <li class="filter__item"><button class="main__batton" type="button">App</button></li>
@@ -64,7 +65,7 @@
                     <li class="filter__item"><button class="main__batton" type="button">Marketing</button></li>
                 </ul>
 
-                <ul class="promo__list list">
+                <ul class="promo__list">
                     <li class="promo__item">
                         <a class="promo__link" href="">
                             <div class="promo__overlay">
@@ -76,13 +77,12 @@
                                 </p>
                             </div>
                             <div class="promo__text">
-                                <h2 class="subtitle">Banking App Interface Concept</h2>
+                                <h2 class="promo__subtitle">Banking App Interface Concept</h2>
                                 <p class="text">App</p>
                             </div>
                         </a>
                     </li>
                     <li class="promo__item ">
-
                         <a class="promo__link" href="">
                             <div class="promo__overlay">
                                 <img src="./images/card_2.jpg" alt="sales photo">
@@ -93,11 +93,10 @@
                                 </p>
                             </div>
                             <div class="promo__text">
-                                <h2 class="subtitle">Cashless Payment</h2>
+                                <h2 class="promo__subtitle">Cashless Payment</h2>
                                 <p class="text">Marketing</p>
                             </div>
                         </a>
-
                     </li>
                     <li class="promo__item">
                         <a class="promo__link" href="">
@@ -110,7 +109,7 @@
                                 </p>
                             </div>
                             <div class="promo__text">
-                                <h2 class="subtitle">Meditation App</h2>
+                                <h2 class="promo__subtitle">Meditation App</h2>
                                 <p class="text">App</p>
                             </div>
                         </a>
@@ -126,7 +125,7 @@
                                 </p>
                             </div>
                             <div class="promo__text">
-                                <h2 class="subtitle">Taxi Service</h2>
+                                <h2 class="promo__subtitle">Taxi Service</h2>
                                 <p class="text">Marketing</p>
                             </div>
                         </a>
@@ -142,7 +141,7 @@
                                 </p>
                             </div>
                             <div class="promo__text">
-                                <h2 class="subtitle">Screen Illustrations</h2>
+                                <h2 class="promo__subtitle">Screen Illustrations</h2>
                                 <p class="text">Design</p>
                             </div>
                         </a>
@@ -158,7 +157,7 @@
                                 </p>
                             </div>
                             <div class="promo__text">
-                                <h2 class="subtitle">Online Courses</h2>
+                                <h2 class="promo__subtitle">Online Courses</h2>
                                 <p class="text">Marketing</p>
                             </div>
                         </a>
@@ -174,7 +173,7 @@
                                 </p>
                             </div>
                             <div class="promo__text">
-                                <h2 class="subtitle">Instagram Stories Concept</h2>
+                                <h2 class="promo__subtitle">Instagram Stories Concept</h2>
                                 <p class="text">Design</p>
                             </div>
                         </a>
@@ -190,7 +189,7 @@
                                 </p>
                             </div>
                             <div class="promo__text">
-                                <h2 class="subtitle">Organic Food</h2>
+                                <h2 class="promo__subtitle">Organic Food</h2>
                                 <p class="text">Web Site</p>
                             </div>
                         </a>
@@ -206,7 +205,7 @@
                                 </p>
                             </div>
                             <div class="promo__text">
-                                <h2 class="subtitle">Fresh Coffee</h2>
+                                <h2 class="promo__subtitle">Fresh Coffee</h2>
                                 <p class="text">Web Site</p>
                             </div>
                         </a>
@@ -222,11 +221,15 @@
     <footer class="footer">
         <div class="container footer__iner">
             <div class="footer__text-col">
-                <a class="footer__link logo" href="./index.html">
-                    Web<span class="logo_light">Studio</span>
-                </a>
-                <p class="footer__text text">Increase the flow of customers and sales for your business with
-                    digital marketing & growth solutions.</p>
+                <div class="footer__logo">
+                    <a class="footer__link logo" href="./index.html">
+                        Web<span class="logo_light">Studio</span>
+                    </a>
+                </div>
+                <p class="footer__text text">
+                    Increase the flow of customers and sales for your business with
+                    digital marketing & growth solutions.
+                </p>
             </div>
             <div class="footer__social-col">
                 <p class="footer__subtitle">Social media</p>
@@ -234,37 +237,36 @@
                     <li class="social__footer-item">
                         <a href="https://www.instagram.com/" target="_blank" class="social__footer-link">
                             <svg class="footer__social-svg social__svg" width="24" height="24">
-                                <use href="./images/icons.svg#icon-instagram-2">
-                                </use>
+                                <use href="./images/icons.svg#icon-instagram-2"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="social__footer-item">
                         <a href="https://www.facebook.com/" target="_blank" class="social__footer-link">
                             <svg class="footer__social-svg social__svg" width="24" height="24">
-                                <use href="./images/icons.svg#icon-facebook-1">
-                                </use>
+                                <use href="./images/icons.svg#icon-facebook-1"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="social__footer-item">
                         <a href="https://www.youtube.com/" target="_blank" class="social__footer-link">
-                            <svg class=" footer__social-svg social__svg" width="24" height="24">
-                                <use href="./images/icons.svg#icon-twitter-1">
-                                </use>
+                            <svg class="footer__social-svg social__svg" width="24" height="24">
+                                <use href="./images/icons.svg#icon-twitter-1"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="social__footer-item">
                         <a href="" target="_blank" class="social__footer-link">
                             <svg class="footer__social-svg social__svg" width="24" height="24">
-                                <use href="./images/icons.svg#icon-linkedin-1">
-                                </use>
+                                <use href="./images/icons.svg#icon-linkedin-1"></use>
                             </svg>
                         </a>
                     </li>
                 </ul>
             </div>
+
+
+
             <div class="footer__form-col">
                 <p class="footer__subtitle">Subscribe</p>
                 <form action="#" class="footer__form">
@@ -279,6 +281,7 @@
                     </button>
                 </form>
             </div>
+
         </div>
     </footer>
 
