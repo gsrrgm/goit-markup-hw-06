@@ -1,4 +1,20 @@
+@media (min-width: 428px) {
+  .menu-toggle {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 428px) {
+
+  .menu__list,
+  .contact {
+    display: none;
+  }
+
+    .header__top {
+    display: flex;
+    justify-content: space-between;
+  }
 
   .hero-image__title {
     color: var(--white, #FFF);
