@@ -315,7 +315,7 @@ address {
   display: block;
   color: var(--iris, #4d5ae5);
   font-family: Roboto;
-  font-size: 36px;
+  font-size: calc(2px + 8vw);
   font-style: normal;
   font-weight: 700;
   line-height: 40px; /* 111.111% */
@@ -335,7 +335,8 @@ address {
 }
 .mob-social__list {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 56px;
 }
 
 
