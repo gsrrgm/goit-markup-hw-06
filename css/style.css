@@ -270,8 +270,8 @@ address {
 }
 
 .open-menu-btn {
-   background-color: transparent;
-  
+  background-color: transparent;
+
 }
 
 .mob-menu__list {}
@@ -304,9 +304,7 @@ address {
 
 .mob-menu__item {}
 
-.mob-contact {
-
-}
+.mob-contact {}
 
 .mob-contact__list {}
 
@@ -363,6 +361,17 @@ address {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 188px 0;
+}
+
+@media (min-resolution: 192dpi) {
+  .hero-image {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)), url('../images/retina_2x/hero-bg2x.jpg');
+    color: var(--white-background);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 .hero-image__title {
