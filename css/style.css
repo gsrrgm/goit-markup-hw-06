@@ -260,10 +260,18 @@ address {
 
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .mob-menu-container.is-open {
   transform: translateX(0);
+}
+
+.open-menu-btn {
+   background-color: transparent;
+  fill: #2e2f42;
 }
 
 .mob-menu__list {}
@@ -298,7 +306,6 @@ address {
 
 .mob-contact {
 
-  margin-top: 284px;
 }
 
 .mob-contact__list {}

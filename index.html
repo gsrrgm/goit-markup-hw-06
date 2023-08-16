@@ -49,9 +49,7 @@
       </address>
       <button type="button" class="open-menu-btn js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
         <svg class="open-menu-btn__svg" width="32" height="22">
-          <use href="./images/icons.svg#icon-charm_menu-hamburger">
-
-          </use>
+          <use href="./images/icons.svg#icon-svg-menu__hum"></use>
         </svg>
       </button>
     </div>
@@ -501,51 +499,56 @@
         <use class="close-black" href="./images/icons.svg#icon-close-black-18dp-2-1 "></use>
       </svg>
     </button>
-    <ul class="mob-menu__list ">
-      <li class="mob-menu__iten "><a href="./index.html" class="mob-menu__link mob-menu__link-current">Studio</a></li>
-      <li class="mob-menu__iten"><a href="./portfolio.html" class="mob-menu__link">Portfolio</a></li>
-      <li class="mob-menu__item"><a href="" class="mob-menu__link">Contacts</a></li>
-    </ul>
-    <address class="mob-contact">
-      <ul class="mob-contact__list">
-        <li class="mob-contact__item">
-          <a href="tel:+110001111111" class="mob-contact__link-phone">+11 (000) 111-11-11</a>
+    
+    <nav class="mob-nav">
+      <ul class="mob-menu__list ">
+        <li class="mob-menu__iten "><a href="./index.html" class="mob-menu__link mob-menu__link-current">Studio</a></li>
+        <li class="mob-menu__iten"><a href="./portfolio.html" class="mob-menu__link">Portfolio</a></li>
+        <li class="mob-menu__item"><a href="" class="mob-menu__link">Contacts</a></li>
+      </ul>
+    </nav>
+    <div class="mob-contact__wrap">
+      <address class="mob-contact">
+        <ul class="mob-contact__list">
+          <li class="mob-contact__item">
+            <a href="tel:+110001111111" class="mob-contact__link-phone">+11 (000) 111-11-11</a>
+          </li>
+          <li class="mob-contact__item">
+            <a href="mailto:info@devstudio.com" class="mob-contact__link-mailto">info@devstudio.com</a>
+          </li>
+        </ul>
+      </address>
+      <ul class="mob-social__list">
+        <li class="social__item">
+          <a href="https://www.instagram.com/" target="_blank" class="social__link">
+            <svg class="social__svg" width="16" height="16">
+              <use href="./images/icons.svg#icon-instagram-2"></use>
+            </svg>
+          </a>
         </li>
-        <li class="mob-contact__item">
-          <a href="mailto:info@devstudio.com" class="mob-contact__link-mailto">info@devstudio.com</a>
+        <li class="social__item">
+          <a href="https://www.facebook.com/" target="_blank" class="social__link">
+            <svg class="social__svg" width="16" height="16">
+              <use href="./images/icons.svg#icon-facebook-1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="https://www.youtube.com/" target="_blank" class="social__link">
+            <svg class="social__svg" width="16" height="16">
+              <use href="./images/icons.svg#icon-twitter-1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="" target="_blank" class="social__link">
+            <svg class="social__svg" width="16" height="16">
+              <use href="./images/icons.svg#icon-linkedin-1"></use>
+            </svg>
+          </a>
         </li>
       </ul>
-    </address>
-    <ul class="mob-social__list">
-      <li class="social__item">
-        <a href="https://www.instagram.com/" target="_blank" class="social__link">
-          <svg class="social__svg" width="16" height="16">
-            <use href="./images/icons.svg#icon-instagram-2"></use>
-          </svg>
-        </a>
-      </li>
-      <li class="social__item">
-        <a href="https://www.facebook.com/" target="_blank" class="social__link">
-          <svg class="social__svg" width="16" height="16">
-            <use href="./images/icons.svg#icon-facebook-1"></use>
-          </svg>
-        </a>
-      </li>
-      <li class="social__item">
-        <a href="https://www.youtube.com/" target="_blank" class="social__link">
-          <svg class="social__svg" width="16" height="16">
-            <use href="./images/icons.svg#icon-twitter-1"></use>
-          </svg>
-        </a>
-      </li>
-      <li class="social__item">
-        <a href="" target="_blank" class="social__link">
-          <svg class="social__svg" width="16" height="16">
-            <use href="./images/icons.svg#icon-linkedin-1"></use>
-          </svg>
-        </a>
-      </li>
-    </ul>
+    </div>
   </div>
   <script src="./js/mobile-menu.js"></script>
   <script src="./js/modal.js"></script>
