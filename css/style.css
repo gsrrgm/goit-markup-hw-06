@@ -115,6 +115,7 @@ button {
 }
 
 .text {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -211,6 +212,10 @@ button {
   height: 4px;
   background-color: var(--pressed-state);
   border-radius: 2px;
+  color: var(--pressed-state);
+}
+.menu__link--blu-line {
+  color: var(--pressed-state);
 }
 
 /*  header__address */
@@ -527,6 +532,16 @@ address {
 .preview__text {
   padding: 32px 0;
   text-align: center;
+}
+
+.preview-desc {
+  font-weight: 400;
+  color: var(--slate, #434455);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
 
 .preview__list {
