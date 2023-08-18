@@ -475,6 +475,23 @@
 
 @media (min-width: 768px) and  (max-width: 1158px) {
   
+  .hero-image {
+    padding: 112px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)),
+    url(../images/tablet-bg.jpg);
+  }
+  @media (min-resolution: 192dpi) {
+    .hero-image {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)), url('../images/tablet-bg2x.jpg');
+      color: var(--white-background);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+
   .feature__tumb,
   .galary {
     display: none;
@@ -596,10 +613,6 @@
   .footer__form {
     flex-wrap: wrap;
   }
-
-  
-
-
 
   /* p o r t  f o l i o 796 PX */
 

@@ -115,7 +115,7 @@ button {
 }
 
 .text {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -694,6 +694,7 @@ address {
 }
 
 .customers__link {
+  cursor: pointer;
   color: var(--light-slate);
   display: flex;
   align-items: center;
@@ -713,6 +714,7 @@ address {
 }
 
 .customers__link:focus {
+
   color: var(--pressed-state, #404bbf);
   border-color: var(--pressed-state, #404bbf);
 }
